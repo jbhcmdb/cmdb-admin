@@ -6,20 +6,26 @@ export const table1Columns = [
         align: 'center'
     },
     {
-        title: '姓名',
+        title: '应用名称',
         align: 'center',
         key: 'name',
         editable: true
     },
     {
-        title: '性别',
+        title: '项目组',
         align: 'center',
         key: 'sex'
     },
     {
-        title: '岗位',
+        title: '开发负责人',
         align: 'center',
         key: 'work',
+        editable: true
+    },
+    {
+        title: '状态',
+        align: 'center',
+        key: 'status',
         editable: true
     },
     {
@@ -33,19 +39,22 @@ export const table1Columns = [
 
 export const table1Data = [
     {
-        name: 'Aresn',
-        sex: '男',
-        work: '前端开发'
+        name: 'WAP站前端',
+        sex: '移动开发组',
+        work: '李亮亮',
+        status:"待发布"
     },
     {
-        name: 'Lison',
-        sex: '男',
-        work: '前端开发'
+        name: '支付中心',
+        sex: '技术开发组',
+        work: '李海燕',
+        status:"待发布"
     },
     {
-        name: 'lisa',
-        sex: '女',
-        work: '程序员鼓励师'
+        name: '大数据web',
+        sex: '大数据开发组',
+        work: '李子辉',
+        status:"待发布"
     }
 ];
 

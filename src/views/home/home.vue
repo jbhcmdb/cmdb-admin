@@ -4,7 +4,7 @@
 </style>
 <template>
     <div class="home-main">
-        <Row :gutter="10">
+       <!--  <Row :gutter="10">
             <Col :md="24" :lg="8">
                 <Row class-name="home-page-row1" :gutter="10">
                     <Col :md="12" :lg="24" :style="{marginBottom: '10px'}">
@@ -125,13 +125,13 @@
                     </Card>
                 </Row>
             </Col>
-        </Row>
+        </Row> -->
         <Row :gutter="10" class="margin-top-10">
             <Col :md="24" :lg="8" :style="{marginBottom: '10px'}">
                 <Card>
                     <p slot="title" class="card-title">
                         <Icon type="android-map"></Icon>
-                        上周每日来访量统计
+                        上周每日上线统计
                     </p>
                     <div class="data-source-row">
                         <visite-volume></visite-volume>
